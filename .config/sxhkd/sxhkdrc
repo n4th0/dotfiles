@@ -7,6 +7,7 @@ super + Return
 	alacritty
 
 # program launcher
+
 super + @space
 	rofi -show drun
 
@@ -119,3 +120,11 @@ super + alt + shift + {h,j,k,l}
 # move a floating window
 super + {Left,Down,Up,Right}
 	bspc node -v {-20 0,0 20,0 -20,20 0}
+
+# shutdown 
+super + alt + x 
+	shutdown -h 0
+
+# locker 
+super + alt + i
+	i3lock-fancy -p 
