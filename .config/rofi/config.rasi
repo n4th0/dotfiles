@@ -2,4 +2,7 @@
 //@theme "/home/nathan/.local/share/rofi/themes/nord.rasi"
 //@theme "/home/nathan/.local/share/rofi/themes/nord.rasi"
 //@theme "/usr/share/rofi/themes/squared-nord.rasi"
-@theme "/home/nathan/.local/share/rofi/themes/squared-nord.rasi"
+//@theme "/home/nathan/.local/share/rofi/themes/squared-nord.rasi"
+
+@theme "/home/nathan/.config/rofi/Cyberpunk-theme.rasi"
+
