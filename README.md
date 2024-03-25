@@ -26,4 +26,5 @@ spotify
 Hay que instalar alguna nerd font para la polybar, cualquiera está bien
 yo uso: HackNerdFont-Regular
 
-todo: hay que rehacer la configuración de nvim en lua.
+
+los wallpapers de la carpeta Imágenes son de otro repo (no me acuerdo de cual sry)
