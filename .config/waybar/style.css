@@ -1,0 +1,80 @@
+#waybar,
+.main-container {
+    background-color: transparent;
+    /* border: 10px; */
+    /* border-color: white; */
+    font-size: small;
+    color: white;
+
+}
+#taskbar {
+    /* background-color: gray; */
+    border: 15px;
+    border-color: red;
+    /* opacity: .7; */
+}
+#window{
+    border-radius: 20%;
+    
+}
+#clock{
+    /* background-color: red; */
+    padding-left: 10px;
+    padding-right: 5px;
+    border: 3px;
+    border-radius: 20px;
+    /* color: black; */
+    border-color: white;
+
+}
+#workspaces button{
+     color:white; 
+}
+#workspaces button.active {
+    font-size: large;
+    /* cambiar el color a futuro por fabor */
+    color: gold;
+
+}
+/*
+#workspaces button:hover{
+}
+*/
+#pulseaudio{
+    /* background-color: green; */
+    padding-left: 5px;
+    padding-right: 5px;
+    border-radius: 20%;
+}
+
+#battery{
+    color: white;
+    padding-left: 5px;
+    padding-right: 20px;
+    border-radius: 20%;
+    
+}
+
+#network{
+    /* background-color: blue; */
+    padding-left: 5px;
+    padding-right: 10px;
+    border-radius: 20%;
+    color: white;
+}
+
+#cpu{
+    /* background-color: violet; */
+    padding-left: 5px;
+    padding-right: 5px;
+    border-radius: 20%;
+}
+#memory{
+    /* background-color: gray; */
+    padding-left: 5px;
+    padding-right: 5px;
+    border-radius: 20%;
+}
+#custom-teamo{
+    color: red;
+}

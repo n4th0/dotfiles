@@ -1,0 +1,15 @@
+[options]
+overlay = false
+suppress_default_binds = false
+scaling_mode = crop
+initial_pan = 0 0
+
+[binds]
+l = next
+k = pan 0 50
+j = pan 0 -50
+h = prev
+q = quit
+f = fullscreen
+<plus> = zoom 1
+<minus> = zoom -1
