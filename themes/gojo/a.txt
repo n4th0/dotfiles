@@ -1,0 +1,9 @@
+
+antiflash-white:    #E9ECF1ff;
+gunmetal:           #212B3Aff;
+oxford-blue:        #141F2Fff;
+gunmetal-2:         #243243ff;
+rich-black:         #0E121Aff;
+paynes-gray:        #51616Fff;
+paynes-gray-2:      #60707Cff;
+prussian-blue:      #222E3Fff;

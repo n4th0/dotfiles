@@ -1,4 +1,0 @@
-#!/bin/bash
-var=$(pwd)
-cd ~/EC/asm/
-java -jar ~/EC/Mars4_5_1_1Unofficial.jar & disown 2>/dev/null

@@ -1,0 +1,25 @@
+#!/bin/sh
+
+
+noteFilename="$HOME/notes/note-$(date +"%Y-%m-%d").md"
+
+if ! [ -f $noteFilename ]; then
+    echo "### notes for $(date +"%Y-%m-%d")" > $noteFilename;
+    kitty nvim -c "norm Go" -c "norm Go## $(date +"%H:%M")" -c "norm G2o" -c "norm zz" -c "start" $noteFilename
+    exit
+fi
+
+hora=$(stat -c "%y %n" $noteFilename | awk -F":" '{print $1":"$2}' | awk -F" " '{ print $2 }')
+hora1=$(date +"%H:%M")
+
+
+if [ $hora1 = $hora ]; then
+    kitty nvim -c "norm Go"  -c "norm zz" -c "start" $noteFilename
+else
+    kitty nvim -c "norm Go" -c "norm Go## $(date +"%H:%M")" -c "norm G2o" -c "norm zz" -c "start" $noteFilename
+fi
+
+
+
+
+
