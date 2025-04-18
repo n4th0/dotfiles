@@ -1,4 +1,0 @@
-
-
-
-clipboar tool: wl-clipboar

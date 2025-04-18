@@ -1,0 +1,88 @@
+{
+    "layer": "top", // Waybar at top layer
+
+    "modules-left": ["custom/icon"], // TODO add name
+    "modules-center": ["hyprland/workspaces"],
+    "modules-right": [ "network", "battery", "custom/bat","custom/clock","clock"], // custom src para la fecha
+    "margin":"5px",
+
+    "tray": {
+        // "icon-size": 21,
+        "spacing": 4
+    },
+    "clock": {
+	    "interval": 60,
+	    "format": "{:%H:%M}"
+    },
+    "cpu": {
+        "format": "　{usage}%"
+    },
+    "memory": {
+        "format": "  {}%"
+  
+    },
+    "hyprland/window":{
+        "max-length":30,
+        "rewrite": {
+            "Neovide":"  ",
+            "":" N4TH0 "
+        }
+    },
+    "hyprland/workspaces":{
+        "format":"{icon}",
+    	"format-icons":{
+		    "1":" ",
+		    "2":" ",
+		    "3":" ",
+		    "4":" ",
+		    "5":" ",
+		    "6":" ",
+		    "7":" ",
+		    "8":" ",
+		    "9":" ",
+		    "10":" "
+	    }
+    },
+    "backlight": {
+        //"device": "intel_backlight",
+        "format": "　{percent}%",
+        "format-icons": ["", ""]
+    },
+    "battery": {
+	"bat":"BAT0",
+	"full-at":95,
+	"format-icons":[" "," "," "," "," "],
+	"format":"{icon}"
+    },
+    "network": {
+        "format-wifi": " ",
+        "format-disconnected": "⚠"
+    },
+    "pulseaudio": {
+        //"scroll-step": 1,
+        "format": "　{volume}%",
+        "format-bluetooth": "{volume}% {icon}",
+        "format-muted": "",
+        "format-icons": {
+            "headphones": "",
+            "handsfree": "",
+            "headset": "",
+            "phone": "",
+            "portable": "",
+            "car": "",
+            "default": ["", ""]
+        },
+        "on-click": "pavucontrol"
+    },
+    "custom/icon":{
+        "exec": "~/.config/hypr/scripts/arch.sh",
+    },
+    "custom/bat":{
+        "exec": "~/.config/hypr/scripts/bat.sh",
+        "interval": 60
+    },
+    "custom/clock":{
+        "exec": "~/.config/hypr/scripts/clock.sh",
+    },
+    
+}

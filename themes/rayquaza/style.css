@@ -1,0 +1,77 @@
+
+*{
+	font-family: "BigBlueTerm437 Nerd Font";
+}
+
+window#waybar{
+	background: #191724;
+}
+
+	/*u r d l*/
+.modules-left{
+	margin: 5px 5px;
+	font-size: 18px;
+	background: #eb6f92;
+	padding: 3px 0px 1px 6px;
+}
+
+.modules-center{
+	margin: 4px 4px;
+	/*padding: 0px 10px 0px 0px;*/
+}
+
+#workspaces button{
+	margin: 0px -2px -2px -2px;
+	border-radius: 0px;
+	background: #eb6f92;
+	color: #ebbcba;
+	font-size: 18px;
+}
+
+#workspaces button.active{
+	margin: 0px -2px -2px -2px;
+	background: #ebbcba;
+	color: #191724;
+}
+
+#battery{
+	margin: 4px 0px 4px 4px;
+	padding: 4px 4px 4px 7px;
+	font-size: 15px;
+	background: #ea9d34;
+}
+
+#custom-bat{
+	margin: 4px 4px 4px 0px;
+	padding: 4px 4px 4px 7px;
+	background: #f6c177;
+}
+
+#custom-clock{
+	margin: 4px 0px 4px 4px;
+	padding: 4px 4px 3px 7px;
+	background: #31748f;
+	color: #9ccfd8;
+}
+
+#clock{
+	margin: 4px 4px 4px 0px;
+	padding: 4px 4px 4px 7px;
+	background: #9ccfd8;
+	color: #191724;
+}
+
+#network {
+	margin: 4px 4px;
+	font-size: 18px;
+	background: #b1a738;
+	padding: 3px 5px 0px 5px;
+}
+
+
+
+
+
+
+
+

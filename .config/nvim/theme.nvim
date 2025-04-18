@@ -1,3 +1,0 @@
-
-colorscheme github_dark
-let g:lightline = {'colorscheme':'nord'}
